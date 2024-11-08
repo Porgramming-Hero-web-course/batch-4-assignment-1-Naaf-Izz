@@ -3,7 +3,8 @@ How to handle asynchronous operations using async/await over callback/promise Ty
 Async/await feels like a game-changer-handler in TypeScript because it offers a cleaner+ readable syntax than callbacks or .then chains with promises. 
 Sometimes we don’t get results instantly from an API/database. This delay is handled with async/await so the program keeps running without waiting for response. Previously developers used callbacks/promises but async/await provides a simple + readable format.
 
-Concept of Async/Await
+Concept of Async/Await:
+
 async makes a function asynchronous so it can handle promises.
 await pauses the code until the promise is resolved (gets result) or rejected (has error).
 Async/await  write asynchronous code that looks like regular + synchronous code.
